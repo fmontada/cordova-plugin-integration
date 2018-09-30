@@ -1,31 +1,31 @@
 {
   "project_info": {
-    "project_number": "537705623361",
-    "firebase_url": "https://opencarwash-141603.firebaseio.com",
-    "project_id": "opencarwash-141603",
-    "storage_bucket": "opencarwash-141603.appspot.com"
+    "project_number": "110553119288",
+    "firebase_url": "https://prevvy1.firebaseio.com",
+    "project_id": "prevvy1",
+    "storage_bucket": "prevvy1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:537705623361:android:4f92f0d70f4988c8",
+        "mobilesdk_app_id": "1:110553119288:android:307652411a57b544",
         "android_client_info": {
-          "package_name": "com.opencarwash.admin"
+          "package_name": "com.healthcentrix.prevvy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "537705623361-6vgdfqqkia589mkglrl6dcgg9bar2pn3.apps.googleusercontent.com",
+          "client_id": "110553119288-62hncr9oqatigdu7a0f25rq8qer0s2t4.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "537705623361-5u9mlvag2juui68bvr8o5s9p82h5tb7r.apps.googleusercontent.com",
+          "client_id": "110553119288.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB7Wzvhfh8CqXjrcmYtdn8rnhg3ocN6XKk"
+          "current_key": "AIzaSyDEsNqsW6gx-xHdzM9x1xS9dYFJkctS6XA"
         }
       ],
       "services": {

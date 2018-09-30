@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.healthcentrix.prevvy</groupId>
+    <artifactId>PrevvyApp</artifactId>
+    <version>2.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>PrevvyApp</name>
+
+    
+    <dependencies>
+    </dependencies>
+
+    <build>      
+        <plugins>
+               <plugin>
+                        <groupId>com.github.chrisprice</groupId>
+                        <artifactId>phonegap-build-maven-plugin</artifactId>
+                        <version>0.0.10</version>
+                        <configuration>
+                            <username>jmolmo@healthcentrix.com</username>
+                            <password>health25</password>
+                            <platforms>
+                                <platform>android</platform>
+                            </platforms>
+                            <!-- iOsCertificate>iOsCertificate.p12</iOsCertificate>
+                            <iOsCertificatePassword>pr3vvy</iOsCertificatePassword>
+                            <iOsMobileProvision>PrevvyDevelopment.mobileprovision</iOsMobileProvision -->
+                            <androidSign>false</androidSign>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>phonegap-build</id>
+                                <goals>
+                                    <goal>scorch</goal>
+                                    <goal>clean</goal>
+                                    <goal>build</goal>
+                                </goals>
+                                <configuration>
+                                    <configFile>config.xml</configFile>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+</project>

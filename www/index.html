@@ -28,13 +28,12 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Opencarwash</title>
+        <title>Prevvy</title>
     </head>
     <body>
         
@@ -42,9 +41,10 @@
     <!-- BEGIN: Actual animated container. -->
     <div class="animated-container">
         <div class="messaging">
-            <h1 id="info" style="color:#333">
+            <h1 id="info" style="color:#FFF">
                  Loading..
             </h1>
+            <div class="separator"></div>
             <div styel="text-align:center">
             	<img src="img/logo.png" width="300px" alt="Opencarwash"/>
 			</div>
@@ -53,18 +53,8 @@
     <!-- END: Actual animated container. -->
 </div>
 <!-- END: App-Loading Screen. -->
-        
-        <!-- 
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-         -->
-        
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </body>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
 </html>

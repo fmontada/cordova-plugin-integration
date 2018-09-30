@@ -45,6 +45,11 @@ body {
     width:100%;
 }
 
+.inAppBrowserWrap {
+  background-color: #E4E4E4;
+  color: #E4E4E4;
+}
+
 /* Portrait layout (default) */
 .app {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
@@ -119,7 +124,7 @@ div.m-app-loading {
 }
             
 div.m-app-loading div.animated-container {
-    background-color: #e5e5e5 ;
+    background-color: #0b84ba ;
     bottom: 0px ;
     left: 0px ;
     opacity: 1.0 ;
@@ -142,7 +147,7 @@ div.m-app-loading div.messaging {
     color: #FFFFFF ;
     font-family: monospace ;
     left: 0px ;
-    margin-top: -37px ;
+    margin-top: -100px ;
     position: absolute ;
     right: 0px ;
     text-align: center ;
@@ -157,4 +162,7 @@ div.m-app-loading p {
     font-size: 18px ;
     line-height: 14px ;
     margin: 0px 0px 0px 0px ;
+}
+.separator {
+    height: 5px ;
 }
